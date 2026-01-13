@@ -8,6 +8,18 @@
 
 
 /* common styles */
+main {
+ padding: 50px 0;
+}
+
+main>section {
+ max-width: 1440px;
+ margin: 0 auto;
+}
+
+
+
+
 .bg-light {
  background-color: rgba(229, 84, 115, 0.1);
 }
@@ -59,4 +71,39 @@
 
 .nav-link li a {
  text-decoration: none;
+}
+
+/* header banner styles */
+.header-banner {
+ max-width: 1440px;
+
+ margin: 0 auto;
+}
+
+.banner-container {
+ align-items: center;
+ gap: 97px;
+
+}
+
+.banner-contant {
+
+ width: 50%;
+}
+
+.banner-img img {
+ width: 100%;
+
+}
+
+.banner-title {
+ font-size: 4rem;
+ font-weight: bolder;
+}
+
+.banner-description {
+ font-size: 1rem;
+ font-weight: 400;
+ color: rgba(39, 39, 39, 0.6);
+ padding-bottom: 10px;
 }
