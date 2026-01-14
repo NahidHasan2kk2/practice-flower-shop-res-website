@@ -164,3 +164,19 @@ main>section {
 
  color: rgba(77, 41, 41, 1);
 }
+
+/* delivary-container styles */
+.delivary-container {
+ background-color: rgba(39, 39, 39, 0.05);
+ max-width: 1440px;
+ height: 320px;
+ justify-content: space-evenly;
+ align-items: center;
+ text-align: center;
+}
+
+.delivary-info {
+ font-size: 1.25rem;
+ font-weight: 700;
+ color: rgba(39, 39, 39, 0.8);
+}
