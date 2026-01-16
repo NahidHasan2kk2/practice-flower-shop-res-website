@@ -226,3 +226,60 @@ main>section {
  gap: 24px;
  grid-template-columns: repeat(4, 1fr);
 }
+
+
+
+/* email container styles */
+.email-container {
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ background-image: url(images/Rectangle\ 9.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 449px;
+
+
+}
+
+.email-box {
+ padding: 21px 300px 21px 22px;
+ font-size: 1.125rem;
+ font-weight: 500;
+ color: rgba(39, 39, 39, 0.6);
+ border: none;
+ border-radius: 8px;
+}
+
+/* footer section style */
+.footer-container {
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ background-color: rgba(17, 16, 16, 1);
+ padding-bottom: 100px;
+
+
+}
+
+.footer-title {
+ font-size: 4rem;
+ font-weight: bolder;
+ color: #FFFFFF;
+}
+
+.footer-description {
+ font-size: 1.125rem;
+ font-weight: 400;
+ color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-copyright {
+ font-size: 1rem;
+ font-weight: 400;
+ color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-title-color {
+ color: rgba(229, 84, 115, 1);
+}
