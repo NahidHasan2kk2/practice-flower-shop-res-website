@@ -283,3 +283,58 @@ main>section {
 .footer-title-color {
  color: rgba(229, 84, 115, 1);
 }
+
+/* display block for responsive */
+.display-none {
+ display: none;
+}
+
+/*for small device responsive code  */
+@media screen and (max-width: 576px) {
+ main>section {
+  padding: 20px 10px;
+ }
+
+ .nav-bar,
+ .nav-link,
+ .featured-img {
+  flex-direction: column;
+ }
+
+ .nav-link {
+  align-items: center;
+  gap: 10px;
+  margin-top: 0;
+ }
+
+ .banner-container {
+  flex-direction: column-reverse;
+  padding-top: 20px;
+  gap: 0;
+
+ }
+
+ .banner-contant {
+  text-align: center;
+ }
+
+ .br-point {
+  display: inline;
+ }
+
+ .banner-img {
+  width: 70%;
+ }
+
+ .banner-title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+ }
+
+ .featured-ancor {
+  padding: 32px 0;
+ }
+
+
+
+}
