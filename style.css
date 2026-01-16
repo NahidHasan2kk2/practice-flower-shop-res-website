@@ -177,6 +177,40 @@ main>section {
 
 .delivary-info {
  font-size: 1.25rem;
- font-weight: 700;
+ font-weight: ;
  color: rgba(39, 39, 39, 0.8);
+}
+
+/* offer container styles  */
+
+
+.offer-section {
+ width: 100vw;
+ /* nagative margin apply for this case */
+ margin-left: calc(50% - 50vw);
+ margin-right: calc(50% - 50vw);
+ /* margin-left: -240px;
+ margin-right: -240px; */
+
+
+
+}
+
+.offer-container {
+
+ max-width: 1440px;
+ margin: 0 auto;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.offer-contant {
+ text-align: center;
+ width: 40%;
+ padding-right: 150px;
+}
+
+#off-style {
+ color: rgba(229, 84, 115, 1);
 }
