@@ -214,3 +214,15 @@ main>section {
 #off-style {
  color: rgba(229, 84, 115, 1);
 }
+
+
+/*  instagram section styles*/
+.instagram-contant {
+ text-align: center;
+}
+
+.instagram-img {
+ display: grid;
+ gap: 24px;
+ grid-template-columns: repeat(4, 1fr);
+}
